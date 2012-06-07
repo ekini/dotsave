@@ -1,0 +1,117 @@
+#!/bin/bash
+
+declare -A data
+IFS=""
+scriptname="$0"
+#binary data
+data["dotfiles"]="""
+QlpoOTFBWSZTWTmF5IgAAM9/////////////////////////////////////////////0AOe3PO8
+PepeTu2d5Amh6JmpmhHplMIyeiHpNqM1DaGpppoPUYTJoZP1TIyeppiZH6kYm0jTT1DTTNJp6Q2k
+waTNATBNqDamjajBp6ppppkxMIDJ5PVNlGTGiempp6nokeoaeo9TI02kBpiep5J6hk0xPKG1PT1T
+TQHpGg09TTEM1NqGT0TNQ8iPapkD1DagPU0P0o2RNGj9FPUPU3qD1CHqb1T1BiHqaaaYENNpoJjS
+GjT1Gj00QGUxNGAj0TQw0mTGp+ommEGmE9DU0eUGJjRomA0yNNT0mmaan6hoRtNGppo0ybU0xMTA
+mAEwBMEwATAEZMmBDRkyaYEwgTEyGAE0w01GJ6TCZoDQmaaaRhNknpMbU0TJgNDTQRiMmjTBMZJg
+I0wE9CYQYmAaCeowBGJ6JhPRoJkGEwTJtCA6EY2imNJvUmahjQNTTGmhNNGmmGiaYGk0ybJMEzQR
+6T0aA0JiY0mCYhkMIwm0IzRME9EMJgExGQyaeiaNGTTAAAmCYqjzoEyTCfwKYFSwUJHnNRHAJ5I1
+OFQqzQdE7Pw0AkrQpAA7of+/AeMTD0MggA0TDrLBrU6kF8zFsPFV76FFJScnVPDs6DhjQa5TUhPL
+u/Zk4+RFuvNWBaVXKPqJfJJGpSzYqdEuMHf04nwLz+CHqwtfmEPW1FRpCaFvhp7fvnkrdOfCNtnN
+L0UV860MyDZPNHIyvWj7LKnCNtWIvGHkqJX47yoxqODCVj4ea7BcB3Jte286jZFo4VadGRIb8GIk
+lYqGWJC1GNsDlUAGpdcIVkfaMjoAyXBiChMLIQITRREERPuDbmJEtimJxtnGQTUvFdyiGL7/TalD
+uxRW9SkIEiziSAoeHSiAvOFld4X2GqwYA51CKCxxh3cDS/fMBzkcYKFhg7k56uS2yzoNcBbMo8gm
+HIrvxuhYUD1htLTNo5ESKMkAX4oOrhHPe8lfN7TR52JiukTs8CYZIkCUTkA+WNRX2Cz2/RPzN/sK
+sOxanO/XzpZJNV4/n+Q5Rl3OyDaItJhdJnncxEyH/NxPz6XwPVGnzEsIz6egrdSk92SXvEitQljR
+cb0Kl63V6e/fGIkx5umMb7TixMt1ao00hIzdDJgLvTx0cZrd21lX0ZTpVCGp0Q8z+n/7h9csTt3V
++azjgTuYOOrG8wdkRvxMrjY5Jjf2BI5q08LwIE2Ng0imBfSDKh4VqcBp1Lgx/1j4cgRwN5EPkkgu
+v30/J/NFV94mkAa9rV1TvoGFAC5q3VmcpA8kqIHiJWOFt48z1SFdNFp/sNkQTt3MAuIr1rucR2yH
+BZSjGDImJQlJTpYJlX/MvcepP1/9JBT3HDCX9IvOHKzbpt4Y19Lip+A35P9HVoShwqIywQQIknYn
+WB73NIkF5SGJgFUbpUIt/OkqRlep+XpGSPsWjDiu42WoYWPX5jTXPCCzjKbaSUE2IwoJ3+rSCVPy
+XxiBfWJuONDgLoWgSg8Bz96rdHPGLD7VN254LARQZw4GprgIHfFcUwgqSooXGTBgkOvKgVQfljO8
+yyaQ7DRxl5o/85K9P2zUsSHyk8BN+zxCE3uosWlMYjJECKFy2Y+45pjYPkIwtGZ/rjzEXxL0RQwW
+4KYoWmdUZStzdQa7CaLIbS2LIApgH9Ibw28oTyELTxvnVCLQNzJqNLycisT6BE8QE/hXzp9neIlT
+kydsf6VWsB0JAndwxxwaemOTJeS6X3YAml9Fm4tX9L4G6BIVhmiTZeFAr1LIY+GULS4uH3CY3HED
+KBaCUrQvS6I4TDLzfZicYXhJhEAocPfGv9PxAQ28YsnQ5qjl48/VpRoDgq89/+fNAD3VFqpkPkr+
+om65EvOX5Z7+h9m2GrudEohKxi1JLZcrjoDbVIyA5ND+4QIdpVlqJ6Ema6tQdRDMRfc1P1K5IiCK
+D0YwvhvHs9YrKFWChpeYpvWXiz4568spdsYr+8gcBgRZpTCc08WTIJF6my9mRZZy0hLXVCbKZsht
+ooWptalm9L8q4pl20jOYLpM1mmWVqlT3NYOYtrtw1yaQOS0rAtz7vd2s2RJ/ZeUZDANyNq6y8JWX
+ye4lWCXGZGcAO3pgiwhVHyeTXJW+weCCskKI/cIOLlJquIgvbeTVpRnc08obrQSIBqo/DJRzosaV
+ooZ0oa+ACXbkCj8FXS1bEE2wc3KFa1djq5NizIMfhf5SnAW7aNH/yC9mGCW5WD9dQmcH7NPzPcIb
+qyzt3/XMbO3pquzsBPq/D0EKXcnJvGiocSC8n7Gw7OXMjURh/+wQL8YE0IK7UCJCfLib4u5IpwoS
+BzC8kQA=
+"""
+
+function embed
+{
+tmpself=`tempfile`
+tmpselfembedded=`tempfile`
+sed -e '/^data\[\"'$1'\"\]=\"\"\"$/,/^\"\"\"/d' < "$0" > "$tmpself"
+sed -e '1,/^#binary\sdata/!d' < "$tmpself" > "$tmpselfembedded"
+echo 'data["'$1'"]="""' >> "$tmpselfembedded"
+cat "$2" | bzip2 -9 | base64 >> "$tmpselfembedded"
+echo '"""' >> "$tmpselfembedded"
+sed -e '1,/^#binary\sdata/d' < "$tmpself" >> "$tmpselfembedded"
+
+mv "$tmpselfembedded" "$0"
+chmod u+x "$0"
+rm $tmpself
+}
+function backup
+{
+IFS=$'\n'
+curpwd=`pwd`
+tmpfile=`tempfile`
+
+cd ~/
+tar cvjf "$tmpfile" --files-from ~/.dotsave --ignore-failed-read
+cd "$curpwd"
+embed "dotfiles" "$tmpfile"
+rm "$tmpfile"
+}
+function save
+{
+    if [ -n "$1" ]
+    then
+        grep -P "^data\[\"dotfiles\"\]=\"\"\"$" -q < "$0"
+        if [ $? -eq 0 ]
+        then
+            echo ${data["dotfiles"]} | base64 -d | bzip2 -d > "$1"
+        else
+            echo "There is no data \"$1\""
+        fi
+    else
+        echo "Please specify output file"
+    fi
+}
+function restore
+{
+tmpfile=`tempfile`
+save "$tmpfile"
+cd /tmp/a
+tar xvjf "$tmpfile"
+rm "$tmpfile"
+
+}
+case "$1" in
+    "backup")
+    echo "backuping data..."
+    backup
+    ;;
+    "restore")
+    echo "restoring data..."
+    restore
+    ;;
+    "save")
+    save "$2"
+    ;;
+    "list")
+    echo -n "datas: "
+        for p in ${!data[@]}
+        do
+            echo -n "$p "
+        done
+        echo
+    ;;
+    *)
+    echo "usage: $0 backup|restore|save|list"
+    ;;
+esac
+
