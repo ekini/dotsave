@@ -176,7 +176,7 @@ function restore
 {
 tmpfile=`tempfile`
 save "$tmpfile"
-cd /tmp/a
+cd ~
 tar xvjf "$tmpfile"
 rm "$tmpfile"
 

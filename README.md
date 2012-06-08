@@ -1,4 +1,7 @@
 dotsave
 =======
 
-saves dot files inside bash script, backups and restores them
+Saves dot files inside bash script, backups and restores them.
+Files to save are listed in ~/.dotsave
+
+
